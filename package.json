@@ -2,27 +2,27 @@
   "name": "cactu-react-forms",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "homepage": "https://github.com/Evolveye/react-typescript-modules-base",
+  "bugs": {
+    "url": "https://github.com/Evolveye/react-typescript-modules-base/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evolveye/react-typescript-modules-base.git"
+  },
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "preview": "cd preview && npm start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Evolveye/cactu-react-forms.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Evolveye/cactu-react-forms/issues"
+    "preview": "cd preview && cross-env BROWSER=none npm start"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "homepage": "https://github.com/Evolveye/cactu-react-forms#readme",
   "devDependencies": {
     "@types/react": "^17.0.21",
     "@types/react-dom": "^17.0.9",
